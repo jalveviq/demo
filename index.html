@@ -45,7 +45,7 @@ header {
 #toggleButtons button { width: 19%; display : inline-block; text-align: center; font-size: 8pt; background-color: #A0A0A0 }
 
 </style>
-  <title>hls.js demo working</title>
+  <title>hls.js demo</title>
 <link rel="icon" type="image/png" href="http://static1.dmcdn.net/images/favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="http://static1.dmcdn.net/images/favicon-16x16.png" sizes="16x16" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -68,23 +68,18 @@ header {
   </div>
 
   <div class="main-container">
-    <header>
-      <p>
-        test with your HLS streams below in Chrome, Firefox, IE11 or Safari !
-        <br>Advanced controls are also available at the bottom of this page.
-      </p>
-    </header>
+
     <div id="controls">
       <div id="customButtons"></div>
       <select id="streamSelect" class="innerControls"><option value="" selected>(Enter custom URL below)</option></select>
       <input id="streamURL" class="innerControls" type=text value=""/>
-      <label class="innerControls"><input id="enableStreaming" type=checkbox checked/> Enable Streaming</label>
+      <!--<label class="innerControls"><input id="enableStreaming" type=checkbox checked/> Enable Streaming</label>
       <label class="innerControls"><input id="autoRecoverError" type=checkbox checked/> Auto-Recover Media Error</label>
       <label class="innerControls"><input id="enableWorker" type=checkbox checked/> Enable Worker</label>
       <label class="innerControls"><input id="dumpfMP4" type=checkbox unchecked/> dump fMP4</label>
       <label class="innerControls">Level Capping <input id="levelCapping" type=number/></label>
       <label class="innerControls">default Audio Codec <input id="defaultAudioCodec"/></label>
-      <div id="StreamPermalink" class="innerControls"></div>
+      <div id="StreamPermalink" class="innerControls"></div> -->
       <div>
         <select id="videoSize" style="float:left">
          <option value="240">player size: tiny (240p)</option>
